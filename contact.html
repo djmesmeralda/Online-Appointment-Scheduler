@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+    <title>Contact</title>
     <!-- font awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- normalize css -->
@@ -45,25 +45,42 @@
                 </div> 
             </div>
         </nav>
-
-        <div class = "header-inner text-pink text-center">
-            <div class = "container grid">
-                <div class = "header-inner-left">
-                    <h1>your most trusted<br><span>pregnancy clinic</span></h1>
-                    <p class = "lead">the best match services for you</p>
-                    <p class = "text text-md">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam, nulla odit esse necessitatibus corporis voluptatem?</p>
-                    <div class = "btn-group">
-                        <a href = "#" class = "btn btn-white">Learn More</a>
-                        <a href = "#" class = "btn btn-light-blue">Sign In</a>
-                    </div>
-                </div>
-                <div class = "header-inner-right">
-                    <img alt="main image" src = "images/header.png">
-                </div>
-            </div>
+<!-- contact section -->
+<section id = "contact" class = "contact py">
+    <div class = "container grid">
+        <div class = "contact-left">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3448.871636025873!2d66.99719681511847!3d30.18366058183192!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ed2de1ffacce72d%3A0x52d70e8afcc395f6!2sAkram%20Hospital!5e0!3m2!1sen!2sca!4v1651285137835!5m2!1sen!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
-    </header>
-    <!-- end of header -->
+        <div class = "contact-right text-white text-center bg-blue">
+            <div class = "contact-head">
+                <h3 class = "lead">Contact Us</h3>
+                <p class = "text text-md">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga.</p>
+            </div>
+            <form>
+                <div class = "form-element">
+                    <input type = "text" class = "form-control" placeholder="Your name">
+                </div>
+                <div class = "form-element">
+                    <input type = "number" class = "form-control" placeholder="Your phone number">
+                </div>
+                <div class = "form-element">
+                    <input type = "email" class = "form-control" placeholder="Your email">
+                </div>
+                <div class = "form-element">
+                    <input type = "date" class = "form-control" placeholder="Date">
+                </div>
+                <div class = "form-element">
+                    <textarea rows = "5" placeholder="Your Message" class = "form-control"></textarea>
+                </div>
+                <button type = "submit" class = "btn btn-white btn-submit">
+                    <i class = "fas fa-arrow-right"></i> Send Message
+                </button>
+            </form>
+        </div>
+    </div>
+</section>
+<!-- end of contact section -->
+</main>
 
 <!-- footer  -->
 <footer id = "footer" class = "footer text-center">
@@ -140,3 +157,4 @@
 <script src = "js/script.js"></script>
 </body>
 </html>
+
